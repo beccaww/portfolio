@@ -33,8 +33,8 @@
 	margin: 30px; 
 }
 
-.navbar_log { 
-    margin-left: 0.5rem; 
+.navbar_logo { 
+    margin-left: 1rem; 
 }
 
 .navbar_logo a { 
@@ -56,5 +56,20 @@
 .navbar_navitems a:hover,
 .navbar_navitems a:active {
     color: #f2bb69; 
+}
 
+@media (max-width: 768px) {
+    .navbar_navitems{
+        display: none
+    }
+}
+
+@media (min-width: 769px) {
+    .navbar_toggle_button {
+        display: none; 
+    }
+
+    .navbar_logo { 
+        margin-left: 0; 
+    }
 }
