@@ -1,0 +1,60 @@
+.navbar {
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    background: #257a50; 
+    height: 56px; 
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px; 
+}
+
+.navbar_navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem; 
+}
+
+
+.navbar_navitems ul {
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+}
+
+.navbar_navitems li { 
+    padding: 0 0.5rem; 
+}
+
+.navbar_logo img {
+    width: 70px;
+	margin: 30px; 
+}
+
+.navbar_log { 
+    margin-left: 0.5rem; 
+}
+
+.navbar_logo a { 
+    color: white; 
+    text-decoration: none; 
+    font-size: 1.5rem; 
+}
+
+.navbar_navitems a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.spacer {
+    flex: 1; 
+    background-color: #257a50; 
+}
+
+.navbar_navitems a:hover,
+.navbar_navitems a:active {
+    color: #f2bb69; 
+
+}
