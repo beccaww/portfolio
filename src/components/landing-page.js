@@ -13,7 +13,7 @@ class LandingPage extends React.Component {
                 <h1 className="welcome-header">Welcome</h1>
                 <div className="links">
                   <div className="art-link"><Link to="/">Fine Art</Link></div>
-                  <div className="web-link"><Link to="/">Web Design/Development</Link></div>
+                  <div className="web-link"><Link to="/webdesdev">Web Design/Development</Link></div>
                 </div>
               </div>
           </div>

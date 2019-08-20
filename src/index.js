@@ -4,11 +4,13 @@ import './index.css'
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import App from './App'
 import * as serviceWorker from './serviceWorker';
+import WebPage from './components/webd&d'; 
 
 const routing = (
     <Router>
       <div>
         <Route path="/" component={App} />
+        <Route path="/webdesdev" component={WebPage} /> 
       </div>
     </Router>
   )

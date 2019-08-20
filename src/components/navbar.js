@@ -14,7 +14,7 @@ const Navbar = props => (
             <div className="navbar_navitems">
                 <ul>
                     <li><Link to="/">Art</Link></li>
-                    <li><Link to="/">Web</Link></li>
+                    <li><Link to="/webdesdev">Web</Link></li>
                 </ul>
             </div>
         </nav>

@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import LandingPage from './components/landing-page'; 
 import Navbar from './components/navbar'; 
+import Footer from './components/footer';
 import SideDrawer from './components/sidedrawer'; 
 import Backdrop from './components/backdrop'; 
 
@@ -37,6 +38,7 @@ backdropClickHandler = () => {
         <main style={{marginTop: '64px'}}>
           <LandingPage />
         </main>
+        <Footer />
       </div>
     );
   }
