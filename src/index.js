@@ -7,6 +7,11 @@ import * as serviceWorker from './serviceWorker';
 import WebPage from './components/webd&d'; 
 import LandingPage from './components/landing-page'; 
 import ArtPage from './components/art-page';
+import Animation from './components/animation';
+import FanArt from './components/fanart';
+import Projects from './components/projects';
+import StillWork from './components/stillwork';
+
 
 const routing = (
     <Router>
@@ -14,6 +19,10 @@ const routing = (
         <Route path="/" component={App} />
         <Route path="/home" component={LandingPage} />
         <Route path="/fineart" component={ArtPage} />
+        <Route path="/animation" component={Animation} />
+        <Route path="/fanart" component={FanArt} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/stillwork" component={StillWork} />
         <Route path="/webdesdev" component={WebPage} /> 
       </div>
     </Router>

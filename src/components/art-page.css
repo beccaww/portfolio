@@ -74,23 +74,23 @@ body {
       grid-column-start: 1;
       grid-column-end: 6;
       grid-row-start: 3;
-      grid-row-end: 6;
+      grid-row-end: 4;
       background: #f5c531;
       height: 400px;
     }
    
     .extra {
       grid-column-start: 1;
-      grid-column-end: 4;
-      grid-row-start: 7;
-      grid-row-end: 8;
+      grid-column-end: 6;
+      grid-row-start: 5;
+      grid-row-end: 6;
     }
     
-    .related-images {
+    .sidebar {
       grid-column-start: 1;
       grid-column-end: 6;
-      grid-row-start: 3;
-      grid-row-end: 4;
+      grid-row-start: 7;
+      grid-row-end: 8;
     }
    
     
