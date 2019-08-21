@@ -13,7 +13,7 @@ const Navbar = props => (
             <div className="spacer"></div>
             <div className="navbar_navitems">
                 <ul>
-                    <li><Link to="/">Art</Link></li>
+                    <li><Link to="/fineart">Art</Link></li>
                     <li><Link to="/webdesdev">Web</Link></li>
                 </ul>
             </div>
