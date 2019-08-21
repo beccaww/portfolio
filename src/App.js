@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {Link} from 'react-router-dom'; 
 import LandingPage from './components/landing-page'; 
 import Navbar from './components/navbar'; 
 import Footer from './components/footer';
@@ -36,7 +37,7 @@ backdropClickHandler = () => {
           {backdrop}
         </div>
         <main style={{marginTop: '64px'}}>
-          <LandingPage />
+          {/* <Link to="/home">Welcome</Link><LandingPage /> */}
         </main>
         <Footer />
       </div>

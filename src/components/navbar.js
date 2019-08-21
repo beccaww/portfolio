@@ -9,7 +9,7 @@ const Navbar = props => (
             <div className="navbar_toggle_button">
                 <DrawerToggleButton click={props.drawerClickHandler}/>
             </div>
-            <div className="navbar_logo"><a href="/">Rebecca Rupel</a></div>
+            <div className="navbar_logo"><a href="/home">Rebecca Rupel</a></div>
             <div className="spacer"></div>
             <div className="navbar_navitems">
                 <ul>

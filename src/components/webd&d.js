@@ -5,9 +5,9 @@ import './webd&d.css';
 class WebPage extends React.Component {
     render() {
         return (
-            <div>
-                <h1>Web Design/Development</h1>
-                <main>
+            <div className="container">
+                <main className="grid2x2">
+                <h1 className="web-title" style={{marginBottom: "50px"}}>Web Design/Development</h1>
                     <div className="Project1">
                         <h3>Project 1</h3>
                         <p>Description</p>
