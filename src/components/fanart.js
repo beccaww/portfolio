@@ -1,13 +1,23 @@
-import React from 'react'; 
-import './fanart.css'; 
+import React, { Component } from 'react'
 
-class FanArt extends React.Component {
+import Gallery from 'react-photo-gallery';
+
+export default class FanArt extends React.Component {
     render() {
-        return (
-            <div>
-            </div>
-        );
+	return (
+	    <Gallery photos={PHOTO_SET} />
+	);
     }
 }
-
-export default FanArt; 
+const PHOTO_SET = [
+  {
+    src: 'http://example.com/example/img1.jpg',
+    width: 4,
+    height: 3
+  },
+  {
+    src: 'http://example.com/example/img2.jpg',
+    width: 1,
+    height: 1
+  }
+];
