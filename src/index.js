@@ -11,6 +11,7 @@ import Animation from './components/animation';
 import FanArt from './components/fanart';
 import Projects from './components/projects';
 import StillWork from './components/stillwork';
+import About from './components/about';
 
 
 const routing = (
@@ -24,6 +25,7 @@ const routing = (
         <Route path="/projects" component={Projects} />
         <Route path="/stillwork" component={StillWork} />
         <Route path="/webdesdev" component={WebPage} /> 
+        <Route path="/about" component={About} />
       </div>
     </Router>
   )

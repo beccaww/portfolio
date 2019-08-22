@@ -15,6 +15,7 @@ const Navbar = props => (
                 <ul>
                     <li><Link to="/fineart">Art</Link></li>
                     <li><Link to="/webdesdev">Web</Link></li>
+                    <li><Link to="/about">About</Link></li>
                 </ul>
             </div>
         </nav>
